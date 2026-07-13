@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="252" viewBox="0 0 840 252" role="img" aria-label="Max — first-year CS student at Nazarbayev University building product across web, mobile, desktop, and Telegram.">
+  <style>
+    :root {
+      --fg:     #0b0d12;
+      --muted:  #6b7280;
+      --faint:  #b3b9c4;
+      --line:   #e5e7eb;
+      --accent: #6366f1;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fg:     #f4f4f5;
+        --muted:  #a1a1aa;
+        --faint:  #4b4f58;
+        --line:   #27272a;
+        --accent: #818cf8;
+      }
+    }
+    text {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Segoe UI", Inter, Ubuntu, sans-serif;
+      fill: var(--fg);
+    }
+    .overline {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      fill: var(--muted);
+    }
+    .headline {
+      font-size: 46px;
+      font-weight: 700;
+      letter-spacing: -1.2px;
+    }
+    .sub {
+      font-size: 15.5px;
+      font-weight: 400;
+      fill: var(--muted);
+    }
+    .contact-label {
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      fill: var(--muted);
+    }
+    .contact {
+      font-size: 12px;
+      fill: var(--fg);
+    }
+    .line  { fill: var(--line); }
+  </style>
+
+  <defs>
+    <radialGradient id="aurora" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#6366f1" stop-opacity="0.52">
+        <animate attributeName="stop-color"
+                 values="#4776ff;#6366f1;#8b5cf6;#4776ff"
+                 dur="16s" repeatCount="indefinite"
+                 calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1;.45 0 .55 1"/>
+        <animate attributeName="stop-opacity"
+                 values="0.46;0.62;0.46"
+                 dur="12s" repeatCount="indefinite"
+                 calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+      </stop>
+      <stop offset="1" stop-color="#6366f1" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="shimmer" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0"   stop-color="var(--accent)" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#6366f1" stop-opacity="0.9">
+        <animate attributeName="stop-color"
+                 values="#4776ff;#8b5cf6;#4776ff"
+                 dur="8s" repeatCount="indefinite"
+                 calcMode="spline" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+      </stop>
+      <stop offset="1"   stop-color="var(--accent)" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="softCloud" x="-20%" y="-30%" width="140%" height="160%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <!-- soft aurora glow behind the headline (kept inside the canvas so no clipped edges) -->
+  <path d="M430 91 C475 54 535 52 585 72 C638 51 710 69 738 103 C783 119 785 151 748 169 C711 194 659 179 618 188 C565 207 497 181 464 158 C418 150 399 119 430 91Z"
+        fill="url(#aurora)" filter="url(#softCloud)"/>
+
+  <!-- copy -->
+  <text class="overline" x="60" y="86">MAX&#160;&#160;·&#160;&#160;FULL-STACK ENGINEER&#160;&#160;·&#160;&#160;ASTANA</text>
+  <text class="headline" x="58" y="140">I build software that ships.</text>
+  <text class="sub" x="60" y="176">First-year CS student at Nazarbayev University building product across</text>
+  <text class="sub" x="60" y="200">web, mobile, desktop, and Telegram.</text>
+
+  <!-- contact details kept inside the hero, away from the main copy -->
+  <text class="contact-label" x="780" y="100" text-anchor="end">EMAIL</text>
+  <text class="contact" x="780" y="116" text-anchor="end">anxchywl@gmail.com</text>
+  <text class="contact-label" x="780" y="138" text-anchor="end">TELEGRAM</text>
+  <text class="contact" x="780" y="154" text-anchor="end">@anxchywl</text>
+
+  <!-- hairline with a slow shimmer -->
+  <rect class="line" x="60" y="234" width="720" height="1"/>
+  <g>
+    <rect x="60" y="233.5" width="200" height="2" rx="1" fill="url(#shimmer)"/>
+    <animateTransform attributeName="transform" type="translate"
+                      values="-280 0; 760 0; -280 0" dur="9s"
+                      repeatCount="indefinite"/>
+  </g>
+</svg>
