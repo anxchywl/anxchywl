@@ -5,52 +5,39 @@
 -->
 
 <div align="center">
-  <img src="assets/hero-clean.svg" width="100%" alt="Max — first-year CS student at Nazarbayev University building product across web, mobile, desktop, and Telegram." />
+  <img src="assets/hero.svg" width="100%" alt="Max, first-year CS student at Nazarbayev University, building web, mobile, desktop, and Telegram apps." />
 </div>
 
 <div align="center">
   <a href="mailto:anxchywl@gmail.com"><img src="assets/gmail.svg" width="42" alt="Email anxchywl@gmail.com" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://t.me/anxchywl"><img src="assets/telegram-logo.png" width="42" alt="Telegram @anxchywl" /></a>
+  <a href="https://t.me/anxchywl"><img src="assets/telegram.svg" width="42" alt="Telegram @anxchywl" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://open.spotify.com/playlist/08OYWr1SyhK7CAHP7iFmXa?si=21faaf68e925432a"><img src="assets/spotify.svg" width="42" alt="Listen on Spotify" /></a>
 </div>
 
 ### The stack
 
-**Languages**<br />
-Python · TypeScript · Dart · C# · Go · SQL
+I build full products end to end: backend, client, and the infra to run it. Mostly solo, mostly between classes and at night, from an idea to something real people use. I care about apps working with no signal and not collecting more than they need to run. I'd rather ship something small and working than something big and half-done.
 
-**Frontend**<br />
-Next.js 15 · React 19 · Tailwind CSS · TanStack Query · Zustand · MapLibre GL · dnd-kit · Vitest · responsive design · accessibility
+**Languages** — Python · TypeScript · Dart · Swift · Go · C# · SQL
 
-**Mobile**<br />
-Flutter · Firebase (Auth · Firestore · Cloud Functions · Messaging · App Check) · Hive · Provider · offline-first architecture · push notifications · localization
+**Web** — Next.js · React · Tailwind CSS · TanStack Query
 
-**Backend**<br />
-FastAPI · SQLAlchemy · asyncpg · Alembic · aiogram · Celery · Redis · JWT authentication · Pillow · httpx · Prometheus · REST API design · async Python
+**Mobile** — Flutter · Firebase (Auth, Firestore, Cloud Functions) · offline-first, push notifications
 
-**Telegram platform**<br />
-Mini Apps · Telegram Apps SDK · bot API · inline queries · deep linking · webapp auth
+**Backend** — FastAPI · PostgreSQL/PostGIS · Supabase · SQLAlchemy · Redis · Celery · Docker
 
-**Databases & storage**<br />
-PostgreSQL · PostGIS · Redis · MinIO / S3 · Firebase Firestore · presigned uploads · database migrations
+**Telegram** — Mini Apps · bot API (aiogram) · deep linking, webapp auth
 
-**Infrastructure & DevOps**<br />
-Docker · Docker Compose · Cloud Functions · CI/CD · uv · environment-based configuration
-
-**Desktop**<br />
-Avalonia · WPF · Whisper.net (on-device STT) · NAudio · SharpHook · .NET 8/10 · cross-platform (macOS · Windows · Linux)
-
-**Practices**<br />
-Clean architecture · privacy by design · security by default · image processing pipelines · background job orchestration · useful empty states · maintainable code
+**Desktop** — Avalonia/WPF (.NET) · native macOS (Swift, Apple Vision, Metal, CoreMediaIO)
 
 ### Projects
 
 **NUmer** — an offline-first study companion that brings focus timers, habit tracking, calendars, and social study groups with leaderboards into one dashboard. 200+ active students on iOS and Android.<br />
 [App Store](https://apps.apple.com/kz/app/numer-app/id6759787785) · [Google Play](https://play.google.com/store/apps/details?id=app.anx.numer)
 
-**Wished** — social wishlists and gift coordination on Telegram. Share a wishlist with friends and let people quietly reserve or chip in on gifts, no double-buys, surprise stays intact. 50+ users.<br />
+**Wished** — social wishlists and gift coordination on Telegram. Share a wishlist, friends reserve or chip in on gifts, and the surprise stays intact. 50+ users.<br />
 [@wished_app_bot](https://t.me/wished_app_bot)
 
 **Loci** — a personal map where you pin the places that shaped you and the stories behind them. Locations are gently fuzzed for privacy, and it lives right inside Telegram and the web. 20+ users.<br />
@@ -58,3 +45,12 @@ Clean architecture · privacy by design · security by default · image processi
 
 **Student Events** — a Telegram bot and Mini App for campus event discovery at Nazarbayev University. Clubs submit events, admins approve, and students browse, favorite, and set reminders, built to scale across the entire student body.<br />
 [@student_events_bot](https://t.me/student_events_bot)
+
+**Muto** — a marketplace for verified university students. List something for sale, swap, or free, browse and filter by category and condition, save listings, then reach the seller however they prefer to close the deal.<br />
+[anxchywl/Muto](https://github.com/anxchywl/Muto)
+
+**Aspectus** — an experimental macOS app for local eye-contact correction. Tracks your face and eyes with Apple Vision, redraws them on Metal, and feeds the result out as a virtual camera.<br />
+[anxchywl/Aspectus](https://github.com/anxchywl/Aspectus)
+
+**Pong** — a Unity remake of the arcade classic. First step toward putting a few old cabinet games in one place, same look and feel.<br />
+[anxchywl/Pong](https://github.com/anxchywl/Pong)
