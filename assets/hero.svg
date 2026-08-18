@@ -1,4 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="840" height="252" viewBox="0 0 840 252" role="img" aria-label="Max — first-year CS student at Nazarbayev University building product across web, mobile, desktop, and Telegram.">
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="252" viewBox="0 0 840 252" role="img" aria-label="Max, first-year CS student at Nazarbayev University, building web, mobile, desktop, and Telegram apps.">
+
   <style>
     :root {
       --fg:     #0b0d12;
@@ -83,10 +84,10 @@
         fill="url(#aurora)" filter="url(#softCloud)"/>
 
   <!-- copy -->
-  <text class="overline" x="60" y="86">MAX&#160;&#160;·&#160;&#160;FULL-STACK ENGINEER&#160;&#160;·&#160;&#160;ASTANA</text>
-  <text class="headline" x="58" y="140">I build software that ships.</text>
-  <text class="sub" x="60" y="176">First-year CS student at Nazarbayev University building product across</text>
-  <text class="sub" x="60" y="200">web, mobile, desktop, and Telegram.</text>
+  <text class="overline" x="60" y="86">MAX&#160;&#160;·&#160;&#160;SOFTWARE ENGINEER&#160;&#160;·&#160;&#160;ASTANA</text>
+  <text class="headline" x="58" y="140">Making apps, mostly at night.</text>
+  <text class="sub" x="60" y="176">First-year CS student at Nazarbayev University. Web, mobile, desktop,</text>
+  <text class="sub" x="60" y="200">Telegram, whatever the idea needs.</text>
 
   <!-- contact details kept inside the hero, away from the main copy -->
   <text class="contact-label" x="780" y="100" text-anchor="end">EMAIL</text>
