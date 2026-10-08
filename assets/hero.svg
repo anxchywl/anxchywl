@@ -84,9 +84,9 @@
         fill="url(#aurora)" filter="url(#softCloud)"/>
 
   <!-- copy -->
-  <text class="overline" x="60" y="86">MAX&#160;&#160;·&#160;&#160;SOFTWARE ENGINEER&#160;&#160;·&#160;&#160;ASTANA</text>
+  <text class="overline" x="60" y="86">MAX&#160;&#160;|&#160;&#160;SOFTWARE ENGINEER&#160;&#160;|&#160;&#160;ASTANA</text>
   <text class="headline" x="58" y="140">Making apps, mostly at night.</text>
-  <text class="sub" x="60" y="176">First-year CS student at Nazarbayev University. Web, mobile, desktop,</text>
+  <text class="sub" x="60" y="176">First year CS student at Nazarbayev University. Web, mobile, desktop,</text>
   <text class="sub" x="60" y="200">Telegram, whatever the idea needs.</text>
 
   <!-- contact details kept inside the hero, away from the main copy -->
