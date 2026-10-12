@@ -5,7 +5,7 @@
 -->
 
 <div align="center">
-  <img src="assets/hero.svg" width="100%" alt="Max, CS student at Nazarbayev University, building web, mobile, desktop, and Telegram apps." />
+  <img src="assets/hero.svg" width="100%" alt="Max, first year CS student at Nazarbayev University, building web, mobile, desktop, and Telegram apps." />
 </div>
 
 <div align="center">
@@ -18,11 +18,9 @@
 
 <div align="center">
 
-### Core stack
+### The stack
 
-**Languages:** Python · TypeScript · Dart · Swift · C#<br />
-**Frameworks & platforms:** Next.js · Flutter · FastAPI · aiogram · Unity<br />
-**Data & delivery:** PostgreSQL · Redis · Firebase · Docker · GitHub Actions
+Python | TypeScript | Next.js | Flutter | FastAPI | PostgreSQL | Redis | Docker | GitHub Actions
 
 ### Projects
 
