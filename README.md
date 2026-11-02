@@ -13,7 +13,11 @@
   &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://t.me/anxchywl"><img src="assets/telegram.svg" width="42" alt="Telegram @anxchywl" /></a>
   &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.youtube.com/@anxchywl"><img src="assets/youtube.svg" width="42" alt="YouTube @anxchywl" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://open.spotify.com/playlist/08OYWr1SyhK7CAHP7iFmXa?si=21faaf68e925432a"><img src="assets/spotify.svg" width="42" alt="Listen on Spotify" /></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/maxim-egof"><img src="assets/linkedin.svg" width="42" alt="LinkedIn Maxim Egof" /></a>
 </div>
 
 <div align="center">
